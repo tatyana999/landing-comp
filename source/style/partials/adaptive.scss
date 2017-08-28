@@ -1,0 +1,223 @@
+@media (min-width: 1200px){
+  .team{
+    height: 100%;
+  }
+  .team__img{
+
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  .thumbnail{
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  //main
+  .contain{
+    width: 760px;
+    margin:0 auto;
+  }
+  .wrap{
+    justify-content: flex-start;
+  }
+  .nav{
+    margin-left: 60px;
+  }
+  .nav__item {
+    margin-right: 15px;
+  }
+  .home{
+    margin: 0 auto;
+  }
+  //team
+  .team{
+    height: 100%;
+  }
+  .team__img{
+
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  .thumbnail{
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  //main
+  .contain{
+    width: 500px;
+  }
+  .wrap{
+    justify-content: flex-start;
+  }
+  .nav{
+    margin-left:10px;
+
+  }
+  .nav__item {
+    margin-right: 10px;
+    width: 50px;
+  }
+  .nav__link{
+    width: 55px;
+  }
+  .header__name{
+    width: 50px;
+    margin-left: 3px;
+  }
+
+  .header__img{
+    height: 20px;
+    width: 50px;
+  }
+  .nav__link{
+    font-size: 10px;
+  }
+  .home{
+    width: 480px;
+    margin: 0 auto;
+  }
+  //about
+  .about{
+    height: 100%;
+    margin-bottom: 40px;
+  }
+  .wrap-about{
+    flex-wrap: wrap;
+  }
+  .about__left{
+    width: 100%;
+    height: 20%;
+  }
+  .about__right{
+    width: 100%;
+  }
+  .section__title{
+    margin-bottom:40px;
+  }
+  //team
+  .team{
+    height: 100%;
+  }
+  .team__img{
+
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  .thumbnail{
+    width: 50%;
+    margin: 0 auto;
+  }
+  .section__title-text{
+    font-size: 24px;
+  }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .contain{
+    width: 90%;
+  }
+  .header{
+    height: 130px;
+  }
+
+  .wrap{
+    position: relative;
+    height: 100%;
+    display: flex;
+
+
+  }
+  .wrap-header{
+    flex-direction: column;
+  }
+  .header__name {
+    width: 100%;
+    height: 50%;
+
+  }
+
+
+
+  .header__menu {
+    width: 100%;
+    height: 50%;
+    display: flex;
+  }
+  .header__img{
+    width: 100px;
+    height: 30px;
+  }
+  .nav {
+    margin: 0;
+
+  }
+
+  .nav__list {
+    flex-wrap: wrap-reverse;
+  }
+
+  .nav__item {
+    margin-right: 10px;
+
+
+  }
+  .home{
+    width: 300px;
+    top:15%;
+
+  }
+  .home_title{
+    text-align: center;
+    font-size: 26px;
+    margin-bottom:30px;
+
+  }
+  .home_text{
+    text-align: center;
+    font-size:14px;
+  }
+  .view{
+    width: 80%;
+    margin: 0 auto;
+  }
+  //about
+  .about{
+    height: 100%;
+  }
+  .about__left{
+    height: 30%;
+  }
+  .section__title{
+
+    font-size:12px;
+  }
+  .about__left-text{
+    font-size: 12px;
+  }
+  .icons{
+    display: none;
+  }
+  .about__item-title{
+    font-size: 12px;
+  }
+  .about__item-text{
+    font-size: 12px;
+  }
+  //team
+  .img__text-name{
+    font-size: 12px;
+  }
+  .img__text-prof{
+    font-size: 12px;
+  }
+}

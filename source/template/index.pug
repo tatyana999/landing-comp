@@ -1,0 +1,190 @@
+block variables
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    title #{title}
+    meta(content="" name="author")
+    meta(content="" name="description")
+    meta(content="" name="keywords")
+    meta(content="width=device-width, initial-scale=1" name="viewport")
+    meta(content="ie=edge" http-equiv="x-ua-compatible")
+    link(rel='stylesheet' href='../css/main.css')
+    link(rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css")
+    link(rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css")
+
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js")
+    script(src='/build/js/main.js' )
+    script(src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js")
+    <!--[if lt IE 9]>
+    script(src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js")
+    <![endif]-->
+
+  body
+    block  main
+        .wrapper
+            section.main
+                .header
+                   .contain
+                      div(class='wrap wrap-header')
+                          .header__name
+                             .header_text
+                                img(src='../images/modest.png' class='header__img')
+                          .header__menu
+                            .nav
+                                ul.nav__list
+                                    li.nav__item
+                                      a(class="nav__link" href="1")
+                                        .text Home
+                                    li.nav__item
+                                      a(class = "nav__link" href="2")
+                                        .text About
+                                    li.nav__item
+                                      a(class = "nav__link" href="3")
+                                        .text Works
+                                    li.nav__item
+                                      a(class = "nav__link" href="4")
+                                        .text Team
+                                    li.nav__item
+                                      a(class = "nav__link" href="5")
+                                        .text Services
+                                    li.nav__item
+                                      a(class = "nav__link" href="6")
+                                        .text Features
+                                    li.nav__item
+                                      a(class = "nav__link" href="7")
+                                        .text Contacts
+                .maincontent
+                       .contain
+                          .home
+                             h1.home_title Welcome to our marketplace
+                             .home_text Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                               |Aliquid vero saepe numquam tempore facilis obcaecati delectus inventore adipisci quas qui laudantium eum officia modi quis, maiores quasi doloribus! Hic, aperiam.
+                             .view
+                                a(class = "view-link" href="#")
+                                  span.button-view_text View more
+                                a(class = "view-link" href="#")
+                                  span.button-video_text Video tour
+            section.about
+                .contain
+                   .section__title
+                        h1.section__title-text We are the modest
+                   div(class='wrap wrap-about')
+                      .about__left
+                         p.about__left-text Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            |Aliquid vero saepe numquam tempore facilis obcaecati delectus inventore
+                            |adipisci quas qui laudantium eum officia modi quis, maiores q
+                         p.about__left-text Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            |Aliquid vero saepe numquam tempore facilis obcaecati delectus inventore
+                            |adipisci quas qui laudantium eum officia modi quis, maiores q
+                         .icons
+                      .about__right
+                         ul.about__list
+                            li.about__item
+                               .about-numbers
+                                  .about-numbers__text 1
+                               .item-wrap
+                                  h3.about__item-title Dedication to the customers
+                                  .about__item-text Aliquam eos magni maxime accusamus
+                                    |sed impedit ab, ipsam dolorem enim maiores.
+                            li.about__item
+                               .about-numbers
+                                  .about-numbers__text 2
+                               .item-wrap
+                                   h3.about__item-title Working closely with our clients
+                                   .about__item-text Aliquam eos magni maxime accusamus
+                                    |sed impedit ab, ipsam dolorem enim maiores.
+                            li.about__item
+                               .about-numbers
+                                   .about-numbers__text 3
+                               .item-wrap
+                                   h3.about__item-title Increase happiness
+                                   .about__item-text Aliquam eos magni maxime accusamus
+                                     |sed impedit ab, ipsam dolorem enim maiores.
+            section.team
+                      .contain
+                         .section__title
+                             h1.section__title-text Meet team
+                         .container-fluide
+                             .row
+                               .col-xs-12.col-sm-6.col-md-3.col-lg-3
+                                  .thumbnail
+                                    img(src="../images/face1.jpg" alt="Face1" class="team__img img-responsive")
+
+                                    .caption.img__text
+                                       h3.img__text-name Firstname Lastname
+                                       p.img__text-prof Head of Development
+
+
+                               .col-xs-12.col-sm-6.col-md-3.col-lg-3
+                                  .thumbnail
+
+                                    img(src="../images/face1.jpg" alt="Face1" class="team__img img-responsive")
+                                    .caption.img__text
+                                       h3.img__text-name Firstname Lastname
+                                       p.img__text-prof Head of Development
+
+                               .col-xs-12.col-sm-6.col-md-3.col-lg-3
+                                                     .thumbnail
+
+                                                       img(src="../images/face1.jpg" alt="Face1" class="team__img img-responsive")
+                                                       .caption.img__text
+                                                          h3.img__text-name Firstname Lastname
+                                                          p.img__text-prof Head of Development
+                               .col-xs-12.col-sm-6.col-md-3.col-lg-3
+                                                     .thumbnail
+
+                                                       img(src="../images/face1.jpg" alt="Face1" class="team__img img-responsive")
+                                                       .caption.img__text
+                                                          h3.img__text-name Firstname Lastname
+                                                          p.img__text-prof Head of Development
+            section.works
+                .container
+                   .section__title
+                      h1.section__title-text Lovely works
+                   div( id="loadOverlay" style="")
+                       div(class="content clearfix")
+                           .col-md-10.col-md-offset-1.col-xs-12.col-xs-offset-0
+                               div(class="section clearfix")
+                                   .items-container.col-xs-12
+                                       .item.col-lg-3.col-sm-4.col-xs-6
+                                           .dtl27
+                                              img(src="../images/portfolio1.jpg" alt="Face1" class="team__img img-responsive")
+                                              .dtl
+                                                 h3 Lorem Ipsum
+                                                 p Integer sollicitudin lacus libero, in iaculis turpis tristique sit amet. Nullam augue elit, feugiat nec arcu eget, sodales feugiat ligula
+                                                 a(href="#") Read More
+                                       .item.col-lg-3.col-sm-4.col-xs-6
+                                           .dtl27
+                                              img(src="../images/portfolio1.jpg" alt="Face1" class="team__img img-responsive")
+                                              .dtl
+                                                 h3 Lorem Ipsum
+                                                 p Integer sollicitudin lacus libero, in iaculis turpis tristique sit amet. Nullam augue elit, feugiat nec arcu eget, sodales feugiat ligula
+                                                 a(href="#") Read More
+                                       .item.col-lg-3.col-sm-4.col-xs-6
+                                           .dtl27
+                                              img(src="../images/portfolio1.jpg" alt="Face1" class="team__img img-responsive")
+                                              .dtl
+                                                 h3 Lorem Ipsum
+                                                 p Integer sollicitudin lacus libero, in iaculis turpis tristique sit amet. Nullam augue elit, feugiat nec arcu eget, sodales feugiat ligula
+                                                 a(href="#") Read More
+                                       .item.col-lg-3.col-sm-4.col-xs-6
+                                           .dtl27
+                                              img(src="../images/portfolio1.jpg" alt="Face1" class="team__img img-responsive")
+                                              .dtl
+                                                 h3 Lorem Ipsum
+                                                 p Integer sollicitudin lacus libero, in iaculis turpis tristique sit amet. Nullam augue elit, feugiat nec arcu eget, sodales feugiat ligula
+                                                 a(href="#") Read More
+                                       .item.col-lg-3.col-sm-4.col-xs-6
+                                           .dtl27
+                                              img(src="../images/portfolio1.jpg" alt="Face1" class="team__img img-responsive")
+                                              .dtl
+                                                 h3 Lorem Ipsum
+                                                 p Integer sollicitudin lacus libero, in iaculis turpis tristique sit amet. Nullam augue elit, feugiat nec arcu eget, sodales feugiat ligula
+                                                 a(href="#") Read More
+
+
+
+
+
+
